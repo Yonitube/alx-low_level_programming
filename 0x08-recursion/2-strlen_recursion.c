@@ -2,16 +2,16 @@
 
 /**
 * _strlen_recursion - calculate the length of a string.
-* @s: string to be measured.
+* @s: string to be used.
 *
 * Return: length of the string
 */
 int _strlen_recursion(char *s)
 {
-int len = 0;
+int sum = 0;
 if (*s != '\0')
 {
-len++;
-len += _strlen_recursion(s + 1);
+sum++;
+sum += _strlen_recursion(s + 1);
 }
 }
