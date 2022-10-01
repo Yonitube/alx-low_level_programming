@@ -1,1 +1,1 @@
-my static library project
+Harddd
